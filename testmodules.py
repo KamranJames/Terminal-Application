@@ -23,15 +23,15 @@ def main():
         main_sel = main_menu.show()
 
         if main_sel == 0:
-            guess.guessnum == 1
+            guess.guessnum == 0
             break
             
         elif main_sel == 1:
-            guess.guessnum == 2
+            guess.guessnum +=1
             break
             
         elif main_sel == 2:
-            guess.guessnum +=3
+            guess.guessnum +=2
             break
            
         elif main_sel == 3:
