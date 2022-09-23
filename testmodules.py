@@ -1,8 +1,21 @@
 from simple_term_menu import TerminalMenu
 
+class Levels:
+    def __init__(self, lvlone, lvltwo, lvlthree):
+        self.lvlone = lvlone
+        self.lvltwo = lvltwo
+        self.lvlthree = lvlthree
+        self.lvlcancel = lvlcancel
+
+levels = Levels
+levels.lvlone = True
+levels.lvltwo = False
+levels.lvlthree = False
+levels.lvlcancel = True
+
 class Guess_Counter:
-  def __init__(self, guessnum):
-   self.guessnum = guessnum
+    def __init__(self, guessnum, guesstell):
+        self.guessnum = guessnum
 
 guess = Guess_Counter
 guess.guessnum = 0 
@@ -15,29 +28,31 @@ def main():
     menu_entry_index = terminal_menu
 
     main_menu = TerminalMenu(
-        menu_entries=main_menu_items,
-      
-    )
+        menu_entries=main_menu_items,)
     
-    while True:
+    while True and levels.lvlcancel:
         main_sel = main_menu.show()
 
         if main_sel == 0:
-            guess.guessnum == 0
-            break
+            guess.guessnum = 0
+            return
+            
             
         elif main_sel == 1:
-            guess.guessnum +=1
-            break
+            guess.guessnum = 1
+            return
+           
+            
             
         elif main_sel == 2:
-            guess.guessnum +=2
-            break
+            guess.guessnum = 2
+            return
+           
+            
            
         elif main_sel == 3:
-            main_menu_exit = True
             quit()
 
+# if __name__ == "__main__":
+#     main()
 
-if __name__ == "__main__":
-    main()
