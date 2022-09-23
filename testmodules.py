@@ -37,19 +37,42 @@ def main():
             guess.guessnum = 0
             return
             
-            
         elif main_sel == 1:
             guess.guessnum = 1
             return
            
-            
-            
         elif main_sel == 2:
             guess.guessnum = 2
             return
            
-            
-           
+        elif main_sel == 3:
+            quit()
+
+def check():
+    print("Would you like to change difficulty? \n")
+    main_menu_items = ["Easy = 4 guesses", "Medium = 3 guesses ", "Hard = 2 guesses",
+                     "Quit"]
+    terminal_menu = TerminalMenu(main_menu_items)
+    menu_entry_index = terminal_menu
+
+    main_menu = TerminalMenu(
+        menu_entries=main_menu_items,)
+    
+    while True and levels.lvlcancel:
+        main_sel = main_menu.show()
+
+        if main_sel == 0:
+            guess.guessnum = 0
+            return
+
+        elif main_sel == 1:
+            guess.guessnum = 1
+            return
+
+        elif main_sel == 2:
+            guess.guessnum = 2
+            return
+
         elif main_sel == 3:
             quit()
 

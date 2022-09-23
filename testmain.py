@@ -4,6 +4,7 @@ from termcolor import colored
 from testmodules import main
 from testmodules import guess 
 from testmodules import levels 
+from testmodules import check
 
 init()
 
@@ -21,7 +22,7 @@ while game:
         guess.guessnum +=1
      
         if "SNEEZE" in answer.upper():
-           cowsay.cow(colored("Great work, your next riddle is: \n,", 'green', 'on_cyan'))
+           cowsay.cow(colored("Great work! Next level Options:  \n,", 'green', 'on_cyan'))
            guess.guessnum = 0
            levels.lvlone = False
            levels.lvltwo = True
@@ -40,7 +41,9 @@ while game:
             cowsay.cow(colored("Better luck next time! ", 'green', 'on_cyan'))
             quit()
 
+    check()
     while levels.lvltwo == True:
+        cowsay.cow(colored("Your riddle is: \n,", 'green', 'on_cyan'))
         print("\n I am fast or I am slow, i'll keep you young and on your toes, your in charge of my tempo. What am I? \n")
         print("Enter your guess or type 'hint', 'answer' or 'quit' below.")
         answer = input()
@@ -48,7 +51,7 @@ while game:
         guess.guessnum +=1
 
         if "RUNNING" in answer:
-           cowsay.cow(colored("\n Great work, your next riddle is: \n",'green', 'on_cyan'))
+           cowsay.cow(colored("\n Great work! Final level Options: \n",'green', 'on_cyan'))
            levels.lvltwo = False
            levels.lvlthree = True 
            break
@@ -68,7 +71,9 @@ while game:
         else:
             print(colored("Try again!",'green', 'on_cyan'))
 
+    check()
     while levels.lvlthree == True:
+        cowsay.cow(colored("You riddle is: \n,", 'green', 'on_cyan'))
         print("\n Pearl white chest without key or lid. Inside of which, a golden treasure is hid. What am I? \n")
         print("Enter your guess or type 'hint', 'answer' or 'quit' below.")
         answer = input()
