@@ -13,4 +13,4 @@
 |Incorrect input | Incorrect input or answer should produce “Try Again”.| Success | Nil  |
 |Options menu repeat | On each successful guess, user should receive an option to change difficulty or quit. | Success | Nil  |
 |Three levels | User should be able to progress through 3 levels if successful. | Success | Nil  |
-|Congratulations  | Should receive a congratulations Ascii art if succesful| Success | Nil  |
+|Congratulations  | Should receive a congratulations Ascii art if succesful.| Success | Nil  |
