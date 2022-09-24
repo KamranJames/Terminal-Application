@@ -50,8 +50,14 @@ def main():
 
 
 def usranswr():
-    answer = input()
-    answer = answer.upper()
+    try:
+        answer = input()
+        answer = answer.upper()
+    except ValueError:
+        print ("A ValueError was raised. Please select from the options provided")
+    except NameError:
+        print ("A NameError was raised. Please select from the options provided")
+   
     return answer 
 
 def check():
@@ -84,14 +90,6 @@ def check():
 
 
 
-# def answer():
-#     try:
-#         answer = input.upper ()
-#         answer = answer 
-    
-#     except: print("Incorrect Option")
-
-#     return 
 
 
 
