@@ -3,7 +3,7 @@
 |---|---|---|---|---|
 |Title Art| An Ascii art with app title should load to the screen. | Success | Nil  |   |   |
 |Option Menu| An interactive option menu should load| Success | Nil  |   |
-|Option Menu Interaction | Difficulty Options should be selectable. Each option should give less or more guesses  | Success  | Nil  |   |
+|Option Menu Interaction | Difficulty options should be selectable. Each option should give less or more guesses  | Success  | Nil  |   |
 |Quit Option| Choosing Quit in the difficulty menu should exit program. | Success | Nil  |   |   |
 |Riddle print| First level riddle should print with a cow offering an input option for the riddle and three options. | Success | Nil  |
 |Cowsay | The cow should give messages throughout the levels| Success | Nil  |
