@@ -1,5 +1,6 @@
 from simple_term_menu import TerminalMenu
 
+
 class Levels:
     def __init__(self, lvlone, lvltwo, lvlthree):
         self.lvlone = lvlone
