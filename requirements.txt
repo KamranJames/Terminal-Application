@@ -1,1 +1,7 @@
 
+## List of required modules with current versions.
+
+colorama==0.4.5
+cowsay==5.0
+simple-term-menu==1.5.1
+termcolor==2.0.1
