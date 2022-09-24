@@ -5,7 +5,7 @@
 |Option Menu| An interactive option menu should load| Success | Nil  |   |
 |Option Menu Interaction | Difficulty options should be selectable. Each option should give less or more guesses  | Success  | Nil  |   |
 |Quit Option| Choosing Quit in the difficulty menu should exit program. | Success | Nil  |   |   |
-|Riddle print| First level riddle should print with a cow offering an input option for the riddle and three options. | Success | Nil  |
+|Riddle print| First level riddle should print with a cow offering input option for riddle + 3 options. | Success | Nil  |
 |Cowsay | The cow should give messages throughout the levels| Success | Nil  |
 |Colorama | Coloured text should appear throughout the levels | | Nil  |   |
 |Hint vs Guesses| The Hint choice should not count towards the total number of user guesses. | Success | Nil  |
