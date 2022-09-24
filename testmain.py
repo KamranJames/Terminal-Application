@@ -5,16 +5,15 @@ from testmodules import main
 from testmodules import guess 
 from testmodules import levels 
 from testmodules import check
-
 init()
+main()
 
 game = True
 
 while game:
-    main()
     print("Welcome to the guessing game you have 4 guesses your first riddle is: \n")
 
-    while guess.guessnum > 0 and levels.lvlone: 
+    while guess.guessnum < 4 and levels.lvlone == True: 
         print("I am cool as a breeze, I stop your heart with ease, seasons may be my enemy, but im part of you and you are friend to me. What am I? \n")
         print("Enter your guess or type 'hint', 'answer' or 'quit' below.")
         answer = input()
