@@ -76,6 +76,4 @@ def check():
         elif main_sel == 3:
             quit()
 
-# if __name__ == "__main__":
-#     main()
 
