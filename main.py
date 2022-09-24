@@ -5,7 +5,7 @@ from modules import main
 from modules import guess 
 from modules import levels 
 from modules import check
-from modules import answer 
+from modules import usranswr 
 init()
 # main()
 
@@ -26,11 +26,10 @@ while game:
     while guess.guessnum < 4 and levels.lvlone == True: 
         print("I am cool as a breeze, I stop your heart with ease, seasons may be my enemy, but im part of you and you are friend to me. What am I? \n")
         print("Enter your guess or type 'hint', 'answer' or 'quit' below.")
-        answer = input()
-        answer = answer.upper()
+        answer = usranswr()
         guess.guessnum +=1
      
-        if "SNEEZE" in answer.upper():
+        if "SNEEZE" in answer:
            cowsay.cow(colored("Great work! Next level Options:  \n,", 'green', 'on_cyan'))
            guess.guessnum = 0
            levels.lvlone = False

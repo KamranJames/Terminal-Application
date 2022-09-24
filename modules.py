@@ -48,6 +48,12 @@ def main():
         elif main_sel == 3:
             quit()
 
+
+def usranswr():
+    answer = input()
+    answer = answer.upper()
+    return answer 
+
 def check():
     print("Would you like to change difficulty? \n")
     main_menu_items = ["Easy = 4 guesses", "Medium = 3 guesses ", "Hard = 2 guesses",
@@ -76,7 +82,20 @@ def check():
         elif main_sel == 3:
             quit()
 
-def answer():
-    input().upper()
+
+
+# def answer():
+#     try:
+#         answer = input.upper ()
+#         answer = answer 
+    
+#     except: print("Incorrect Option")
+
+#     return 
+
+
+
+
+
 
 
