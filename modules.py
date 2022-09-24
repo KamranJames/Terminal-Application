@@ -76,4 +76,7 @@ def check():
         elif main_sel == 3:
             quit()
 
+def answer():
+    input().upper()
+
 

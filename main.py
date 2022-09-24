@@ -5,16 +5,26 @@ from modules import main
 from modules import guess 
 from modules import levels 
 from modules import check
+from modules import answer 
 init()
-main()
+# main()
 
 game = True
+print(colored("""
+██████╗░██╗██████╗░██████╗░██╗░░░░░███████╗░░░░░░██████╗░██╗██████╗░██████╗░██╗░░░░░███████╗
+██╔══██╗██║██╔══██╗██╔══██╗██║░░░░░██╔════╝░░░░░░██╔══██╗██║██╔══██╗██╔══██╗██║░░░░░██╔════╝
+██████╔╝██║██║░░██║██║░░██║██║░░░░░█████╗░░█████╗██████╔╝██║██║░░██║██║░░██║██║░░░░░█████╗░░
+██╔══██╗██║██║░░██║██║░░██║██║░░░░░██╔══╝░░╚════╝██╔══██╗██║██║░░██║██║░░██║██║░░░░░██╔══╝░░
+██║░░██║██║██████╔╝██████╔╝███████╗███████╗░░░░░░██║░░██║██║██████╔╝██████╔╝███████╗███████╗
+╚═╝░░╚═╝╚═╝╚═════╝░╚═════╝░╚══════╝╚══════╝░░░░░░╚═╝░░╚═╝╚═╝╚═════╝░╚═════╝░╚══════╝╚══════╝""", 'green', 'on_blue'))
+main()
+
 
 while game:
-    cowsay.cow(colored("Welcome to the guessing game you have 4 guesses your first riddle is: \n", 'green', 'on_cyan'))
+    cowsay.cow(colored("Welcome to the guessing game your first riddle is: \n", 'green', 'on_cyan'))
 
     while guess.guessnum < 4 and levels.lvlone == True: 
-        print("I am cool as a breeze, I stop your heart with ease, seasons may be my enemy, but i'm part of you and you are friend to me. What am I? \n")
+        print("I am cool as a breeze, I stop your heart with ease, seasons may be my enemy, but im part of you and you are friend to me. What am I? \n")
         print("Enter your guess or type 'hint', 'answer' or 'quit' below.")
         answer = input()
         answer = answer.upper()
@@ -80,7 +90,14 @@ while game:
         guess.guessnum +=1
 
         if "EGG" in answer:
-           cowsay.cow(colored("\n CONGRATULATIONS, YOU ARE THE RIDDLE MASTER \n",'green', 'on_cyan'))
+           print(colored("""
+██╗░░░██╗░█████╗░██╗░░░██╗  ░██╗░░░░░░░██╗██╗███╗░░██╗
+╚██╗░██╔╝██╔══██╗██║░░░██║  ░██║░░██╗░░██║██║████╗░██║
+░╚████╔╝░██║░░██║██║░░░██║  ░╚██╗████╗██╔╝██║██╔██╗██║
+░░╚██╔╝░░██║░░██║██║░░░██║  ░░████╔═████║░██║██║╚████║
+░░░██║░░░╚█████╔╝╚██████╔╝  ░░╚██╔╝░╚██╔╝░██║██║░╚███║
+░░░╚═╝░░░░╚════╝░░╚═════╝░  ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝""", 'green', 'on_blue'))
+           cowsay.cow(colored("\n CONGRATULATIONS\n",'green', 'on_cyan'))
            levels.lvltwo = False
            levels.lvlthree = True 
            levels.lvlcancel = False
