@@ -29,7 +29,7 @@ def main():
 
     main_menu = TerminalMenu(
         menu_entries=main_menu_items,)
-    f
+    
     while True and levels.lvlcancel:
         main_sel = main_menu.show()
 
