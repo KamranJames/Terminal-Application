@@ -8,7 +8,7 @@ from modules import check
 from modules import usranswr 
 from modules import game
 init()
-f
+
 
 game()
 print(colored("""
