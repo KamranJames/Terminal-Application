@@ -2,17 +2,16 @@
 
 [App Repository](https://github.com/KamranJames/Terminal-Application.git)
 
-# My Table of content
-- [Development Plan](#id-section1)
-- [Features](#id-section2)
-- [Features](#id-section3)
-- [Testing](#id-section4)
-- [Installation instructions](#id-section5)
-- [Resources](#id-section6)
+## **Table of Contents** 
+
+  - [**Features**](#features)
+  - [**Implementation plan**](#implementation-plan)
+  - [Manual Testing](#manual-testing)
+  - [Installation instructions](#installation-instructions)
+  - [Resources](#resources)
+
 
 <div id='id-section1'/>
-## Section 1
-<div id='id-section2'/>
 
 ## **Features**
 
@@ -22,8 +21,7 @@ The features of Riddle - Riddle are as follows:
 * Three game levels which will output a different riddle each level. 
 * The ability for our user to make a guess, receive a hint, ask for the answer or quit. This will be repeated throughout the levels as to give our user an option to change difficulty, or to exit our program.
 
-
-<div id='id-section3'/>
+<div id='id-section2'/>
 
 ## **Implementation plan**
 
@@ -33,23 +31,8 @@ I created created an 8 day limit with deadlines, throughout. This was accomplish
  At the end of everyday I would go through and prioritise what was pressing and make adjustments to what could be pushed back.
 
 [Trello Board](https://trello.com/b/mWq9YIXS/terminal-application-riddle-riddle )
-
-
-
-
-<div id='id-section4'/>
-
-<div id='id-section5'/>
-
-
-
-
-
-
-
-
-
-
+<br></br>
+<div id='id-section3'/>
 
 ## Manual Testing
 |Feature | Expected Outcome  | Actual Outcome | Remaining issues?   |   |
@@ -67,3 +50,17 @@ I created created an 8 day limit with deadlines, throughout. This was accomplish
 |Options menu repeat | On each successful guess, user should receive an option to change difficulty or quit. | Success | Nil  |
 |Three levels | User should be able to progress through 3 levels if successful. | Success | Nil  |
 |Congratulations  | Should receive a congratulations Ascii art if succesful.| Success | Nil  |
+<br></br>
+<div id='id-section4'/>
+
+## Installation instructions
+<br></br>
+<div id='id-section5'/>
+
+## Resources
+* I utilized pep 8 for my style guide.
+[PEP - 8](https://peps.python.org/pep-0008/ )
+
+* Ascii Art Generator
+  I used an ascii art generator for my ascii rt. 
+[F symbols website](https://fsymbols.com/generators/carty/)
