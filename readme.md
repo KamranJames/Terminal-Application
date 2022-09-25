@@ -1,14 +1,14 @@
 # Riddle-Riddle
 
-[App Repository](https://github.com/KamranJames/Terminal-Application.git)
+[**App Repository**](https://github.com/KamranJames/Terminal-Application.git)
 
 ## **Table of Contents** 
 
   - [**Features**](#features)
   - [**Implementation plan**](#implementation-plan)
-  - [Manual Testing](#manual-testing)
-  - [Installation instructions](#installation-instructions)
-  - [Resources](#resources)
+  - [**Manual Testing**](#manual-testing)
+  - [**Installation instructions**](#installation-instructions)
+  - [**Resources**](#resources)
 
 
 <div id='id-section1'/>
@@ -55,6 +55,28 @@ I created created an 8 day limit with deadlines, throughout. This was accomplish
 
 ## Installation instructions
 <br></br>
+
+Steps to accessing program 
+
+
+
+Clone the files from my repository using the following command line instruction:
+
+git clone https://github.com/KamranJames/Terminal-Application.git
+
+From here please navigate to the src folder from where you have cloned the repository:
+
+
+Create new virtual environment using the Python command in a terminal
+Python3 -m venv .venv
+
+Once you have created your new virtual environment activate it using the Python script in your terminal:
+Source .venv/bin/activate
+
+Once inside of the Virtual environment run the Python script in the terminal: *pip install -r requirements.txt
+
+Once these are installed type python3 main.py in your termina.
+
 <div id='id-section5'/>
 
 ## Resources
