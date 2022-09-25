@@ -4,7 +4,6 @@ from simple_term_menu import TerminalMenu
 def game():
     game = True 
 
-
 # Contains the three levels conditions.
 class Levels:
     def __init__(self, lvlone, lvltwo, lvlthree):

@@ -1,4 +1,5 @@
 # Riddle-Riddle
+[**Presentation**](https://vimeo.com/manage/videos/753509964/0db9bb4da2/privacy)
 
 [**App Repository**](https://github.com/KamranJames/Terminal-Application.git)
 
@@ -11,7 +12,7 @@
   - [**Resources**](#resources)
 
 
-<div id='id-section1'/>
+<div id='id-section1'>
 
 ## **Features**
 
@@ -21,7 +22,7 @@ The features of Riddle - Riddle are as follows:
 * Three game levels which will output a different riddle each level. 
 * The ability for our user to make a guess, receive a hint, ask for the answer or quit. This will be repeated throughout the levels as to give our user an option to change difficulty, or to exit our program.
 
-<div id='id-section2'/>
+<div id='id-section2'>
 
 ## **Implementation plan**
 
@@ -32,7 +33,7 @@ I created created an 8 day limit with deadlines, throughout. This was accomplish
 
 [Trello Board](https://trello.com/b/mWq9YIXS/terminal-application-riddle-riddle )
 <br></br>
-<div id='id-section3'/>
+<div id='id-section3'>
 
 ## Manual Testing
 |Feature | Expected Outcome  | Actual Outcome | Remaining issues?   |   |
@@ -51,21 +52,17 @@ I created created an 8 day limit with deadlines, throughout. This was accomplish
 |Three levels | User should be able to progress through 3 levels if successful. | Success | Nil  |
 |Congratulations  | Should receive a congratulations Ascii art if succesful.| Success | Nil  |
 <br></br>
-<div id='id-section4'/>
+<div id='id-section4'>
 
 ## Installation instructions
 <br></br>
 
-Steps to accessing program 
-
-
+**Steps to accessing program **
 
 Clone the files from my repository using the following command line instruction:
-
 git clone https://github.com/KamranJames/Terminal-Application.git
 
 From here please navigate to the src folder from where you have cloned the repository:
-
 
 Create new virtual environment using the Python command in a terminal
 Python3 -m venv .venv
@@ -73,11 +70,12 @@ Python3 -m venv .venv
 Once you have created your new virtual environment activate it using the Python script in your terminal:
 Source .venv/bin/activate
 
-Once inside of the Virtual environment run the Python script in the terminal: *pip install -r requirements.txt
+Once inside of the Virtual environment run the Python script in the terminal:pip install -r requirements.txt
 
-Once these are installed type python3 main.py in your termina.
+Once these are installed type python3 main.py in your terminal. 
+You should now be able to play Riddle - Riddle. 
 
-<div id='id-section5'/>
+<div id='id-section5'>
 
 ## Resources
 * I utilized pep 8 for my style guide.
