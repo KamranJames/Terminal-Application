@@ -92,7 +92,8 @@ def check():
 def game():
     game = True 
 
-
+if name == "main":
+    main()
 
 
 
