@@ -22,7 +22,7 @@ print(colored("""
 ██║░░██║██║██████╔╝██████╔╝███████╗███████╗░░░░░░██║░░██║██║██████╔╝██████╔╝███████╗███████╗
 ╚═╝░░╚═╝╚═╝╚═════╝░╚═════╝░╚══════╝╚══════╝░░░░░░╚═╝░░╚═╝╚═╝╚═════╝░╚═════╝░╚══════╝╚══════╝""", 'green', 'on_blue'))
 main()
-#Initializes the meun and get user name function.
+#Initializes the menu and get user name function.
 
 
 while game:
