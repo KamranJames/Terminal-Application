@@ -32,6 +32,10 @@ I created created an 8 day limit with deadlines, throughout. This was accomplish
  At the end of everyday I would go through and prioritise what was pressing and make adjustments to what could be pushed back.
 
 [Trello Board](https://trello.com/b/mWq9YIXS/terminal-application-riddle-riddle )
+
+Early Screenshot of my Trello board.
+![trello](imgs/early-trello.Png)
+
 <br></br>
 <div id='id-section3'>
 
