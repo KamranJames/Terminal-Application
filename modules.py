@@ -1,5 +1,11 @@
 from simple_term_menu import TerminalMenu
 
+# Function that intiailizes our game.
+def game():
+    game = True 
+
+
+# Contains the three levels conditions.
 class Levels:
     def __init__(self, lvlone, lvltwo, lvlthree):
         self.lvlone = lvlone
@@ -13,6 +19,7 @@ levels.lvltwo = False
 levels.lvlthree = False
 levels.lvlcancel = True
 
+# Keeps count of the users guesses.
 class Guess_Counter:
     def __init__(self, guessnum,):
         self.guessnum = guessnum
@@ -20,7 +27,7 @@ class Guess_Counter:
 guess = Guess_Counter
 guess.guessnum = 0 
 
-
+# The main menu function.
 def main():
     print(f"Welcome to Riddle me this!! Please enter your name:")
     name = usrname()
@@ -52,7 +59,7 @@ def main():
         elif main_sel == 3:
             quit()
 
-
+# Gets username.
 def usrname():
     try:
         name = str(input())
@@ -60,6 +67,7 @@ def usrname():
         print ("A TypeError was raised. Please enter a string as your name.")
     return name
 
+# Takes in the users guess.
 def usranswr():
     try:
         answer = input()
@@ -69,7 +77,7 @@ def usranswr():
     return answer 
 
 
-
+# Change difficulty menu.
 def check():
     print("Would you like to change difficulty? \n")
     main_menu_items = ["Easy = 4 guesses", "Medium = 3 guesses ", "Hard = 2 guesses",
@@ -98,8 +106,6 @@ def check():
         elif main_sel == 3:
             quit()
 
-def game():
-    game = True 
 
 
 
