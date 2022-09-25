@@ -29,7 +29,7 @@ guess.guessnum = 0
 
 # The main menu function.
 def main():
-    print(f"Welcome to Riddle me this!! Please enter your name:")
+    print(f"Welcome to Riddle Riddle!! Please enter your name:")
     name = usrname()
     
     print(f"Hello\n" +name+ "\nNow select your difficulty level. The higher difficulty you choose the less guesses you get.")
