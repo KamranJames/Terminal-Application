@@ -33,8 +33,6 @@ I created created an 8 day limit with deadlines, throughout. This was accomplish
 
 [Trello Board](https://trello.com/b/mWq9YIXS/terminal-application-riddle-riddle )
 
-Early Screenshot of my Trello board.
-![trello](imgs/early-trello.Png)
 
 <br></br>
 <div id='id-section3'>
@@ -67,15 +65,21 @@ git clone https://github.com/KamranJames/Terminal-Application.git
 
 From here please navigate to the src folder from where you have cloned the repository, you can also download it as a zip file from my github repository.
 
-Create new virtual environment using the Python command in a terminal
-Python3 -m venv .venv
+Enter your bash terminal enviroment and ensure Python3 is installed as well as pip.
+If they are not installed you can access them here:<br></br>
+[**Python**](https://www.python.org/downloads/)<br></br>
+[**PIP**](https://pip.pypa.io/en/stable/cli/pip_install/)
 
-Once you have created your new virtual environment activate it using the Python script in your terminal:
-Source .venv/bin/activate
 
-Once inside of the Virtual environment run the Python script in the terminal:pip install -r requirements.txt
 
-Once these are installed type python3 main.py in your terminal. 
+From your bash terminal enter:
+
+#!bin/bash<br></br>
+source .venv/bin/activate<br></br>
+pip3 install -r requirements.txt<br></br>
+python3 src/main.py
+
+This should activate our interactive game. 
 You should now be able to play Riddle - Riddle. 
 
 <div id='id-section5'>
