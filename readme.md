@@ -1,3 +1,56 @@
+# Riddle-Riddle
+
+[App Repository](https://github.com/KamranJames/Terminal-Application.git)
+
+# My Table of content
+- [Development Plan](#id-section1)
+- [Features](#id-section2)
+- [Features](#id-section3)
+- [Testing](#id-section4)
+- [Installation instructions](#id-section5)
+- [Resources](#id-section6)
+
+<div id='id-section1'/>
+## Section 1
+<div id='id-section2'/>
+
+## **Features**
+
+The features of Riddle - Riddle are as follows:
+* An input that takes the users name and returns it back to them.
+* A menu option that provides our users with difficulty options.
+* Three game levels which will output a different riddle each level. 
+* The ability for our user to make a guess, receive a hint, ask for the answer or quit. This will be repeated throughout the levels as to give our user an option to change difficulty, or to exit our program.
+
+
+<div id='id-section3'/>
+
+## **Implementation plan**
+
+The process of creating our riddle game was constructed on day one, with a brainstorming process. I sent my option to Alex Holder to receive his feedback. I was going to attempt to build a GUI using the terminal, Alex informed me that this wouldn’t fit the brief and in hindsight might have been rather ambitious. I went back to the drawing board and came up with a more simple but fun Riddle game. I wanted to be able to output a relatively basic in concept game, that had some features that would challenge my skills and output a fun and interactive experience for the user.
+
+I created created an 8 day limit with deadlines, throughout. This was accomplished using Trello board, I set different tasks for each day, on day one and would continue to add to my Trello board as the days progressed. This set me a metric as to how I was tracking, what things I was spending too much time on or too little and a sense of achievement for when I had accomplished a task. I would move across completed items to the done list, any blockers I was facing I would have in a seperate tab and any pending questions that I was awaiting an answer for would sit in pending.
+ At the end of everyday I would go through and prioritise what was pressing and make adjustments to what could be pushed back.
+
+[Trello Board](https://trello.com/b/mWq9YIXS/terminal-application-riddle-riddle )
+
+
+
+
+<div id='id-section4'/>
+
+<div id='id-section5'/>
+
+
+
+
+
+
+
+
+
+
+
 ## Manual Testing
 |Feature | Expected Outcome  | Actual Outcome | Remaining issues?   |   |
 |---|---|---|---|---|
