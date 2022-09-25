@@ -57,12 +57,11 @@ I created created an 8 day limit with deadlines, throughout. This was accomplish
 ## Installation instructions
 <br></br>
 
-**Steps to accessing program **
 
 Clone the files from my repository using the following command line instruction:
 git clone https://github.com/KamranJames/Terminal-Application.git
 
-From here please navigate to the src folder from where you have cloned the repository:
+From here please navigate to the src folder from where you have cloned the repository, you can also download it as a zip file from my github repository.
 
 Create new virtual environment using the Python command in a terminal
 Python3 -m venv .venv
